@@ -27,15 +27,8 @@ header p {
     margin: 10px 0 0;
 }
 
-.projects, .links, .social-media {
+.social-media {
     margin: 20px 0;
-}
-
-.links a, .social-media a {
-    color: #1da1f2; /* Link color */
-    text-decoration: none;
-    font-size: 1.2em;
-    margin: 10px 0;
 }
 
 .links a:hover, .social-media a:hover {
@@ -44,4 +37,41 @@ header p {
 
 .social-media img {
     margin-left: 10px;
+}
+
+.links a {
+    color: #1da1f2; /* Link color */
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 5px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+    flex-wrap: wrap; /* Allow wrapping */
+}
+
+.btn {
+    background-color: transparent; /* Transparent background */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    border: 1px solid #d3d3d3; /* Light grey border */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: border-color 0.3s; /* Smooth transition for border color */
+    width: 150px;
+    text-align: center;
+}
+
+.btn:hover {
+    border-color: #1da1f2; /* Blue border on hover */
+}
+
+@media (max-width: 600px) {
+    .links {
+        flex-direction: column; /* Stack vertically on narrow screens */
+        align-items: center;
+    }
 }

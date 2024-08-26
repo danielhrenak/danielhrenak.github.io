@@ -12,9 +12,15 @@
         <p>I'm a game producer, team lead, PHP developer</p>
     </header>
     <section class="links">
-        <a href="files/cv.pdf">CV</a> |
-        <a href="projects.php">Projects</a> |
-        <a href="blog.php">Blog</a>
+        <a href="files/cv.pdf" class="btn">
+            DOWNLOAD CV
+        </a>
+        <a href="projects.php" class="btn">
+            PROJECTS
+        </a>
+        <a href="https://blog.danielhrenak.sk" class="btn">
+            BLOG
+        </a>
     </section>
     <section class="social-media">
         <a href="https://www.linkedin.com/in/daniel-hrenak" target="_blank">
