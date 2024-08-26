@@ -12,7 +12,7 @@
         <p>I'm a game producer, team lead, PHP developer</p>
     </header>
     <section class="links">
-        <a href="cv.php">CV</a> |
+        <a href="files/cv.pdf">CV</a> |
         <a href="projects.php">Projects</a> |
         <a href="blog.php">Blog</a>
     </section>
